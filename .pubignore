@@ -1,6 +1,5 @@
 assets/
 screenshots/
-example/
 test/
 build/
 .dart_tool/

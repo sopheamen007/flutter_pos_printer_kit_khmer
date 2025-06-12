@@ -1,4 +1,4 @@
-import 'dart:typed_data';
+
 import 'dart:ui' as ui;
 import 'package:flutter/services.dart';
 import 'package:esc_pos_utils/esc_pos_utils.dart';
