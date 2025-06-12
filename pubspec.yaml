@@ -1,0 +1,22 @@
+name: pos_printer_kit_khmer
+description: A Flutter library for printing receipts in Khmer using ESC/POS-compatible thermal printers.
+version: 1.0.0
+homepage: https://github.com/yourusername/pos_printer_kit_khmer
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  esc_pos_printer: ^4.0.4
+  esc_pos_utils: ^1.1.0
+  image: ^3.3.0
+
+flutter:
+  assets:
+    - assets/logo.jpg
+  fonts:
+    - family: NotoSansKhmer
+      fonts:
+        - asset: assets/fonts/NotoSansKhmer-Regular.ttf
